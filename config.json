@@ -1,0 +1,93 @@
+{
+  "botIdentity": {
+    "displayName": "C H Λ O S B O T",
+    "statusText": ""
+  },
+  "verifyEnabled": true,
+  "channelsAndRoles": {
+    "guildId": "1400568910176194600",
+    "welcomeChannelId": "1428862251162403019",
+    "joinLogChannelId": "1428864324474114141",
+    "verifiedRoleId": "1428624557635407902",
+    "unverifiedRoleId": "1428863230217945198",
+    "roleSelectChannelId": "1409197870518636554",
+    "leaveBanChannelId": "1428817792991363103",
+    "memberStatsChannelId": "1429158078980423913",
+    "unverifiedStatsChannelId": "1429189687288926379",
+    "fallenPhoenixId": "1428857086304850051",
+    "nazdarChannelId": "1400569915437748254",
+    "onlineLogChannelId": "1421633740689506405"
+  },
+  "welcomeFlow": {
+    "greetingEmbed": {
+      "title": "W E L C O M E !",
+      "description": ":flag_cz: Vítej {USER}!\nNechovej se tu jako píča prosím. Díky! 🤍\nVyber si kliknutím na tlačítko hru, kvůli které jsi tu!\n\n:flag_us: Welcome {USER}!\nPlease don’t act like a pussy here, thanks! 🤍\nClick a button below to choose the game you're here for!",
+      "color": "#3a3838"
+    },
+    "verifyQuestionText": ":flag_cz: Ahoj {USER}, pro schválení potřebujeme tvou odpověď. Kde jsi našel náš server a proč se chceš připojit?\n\n:flag_us: Hello {USER}, to approve you we need your answer. Where did you find our server and why do you want to join?",
+    "modLogEmbed": {
+      "title": "🆕 Nový člen na serveru",
+      "descriptionTemplate": "👤 **Uživatel:** {USER}\n📝 **Odpověď:**\n\n{ANSWER}",
+      "color": "#3a3838",
+      "approveMessage": {
+        "textTemplate": "{USER} byl schválen uživatelem {MOD} ✅",
+        "color": "#00FF00"
+      },
+      "rejectMessage": {
+        "textTemplate": "{USER} byl odmítnut uživatelem {MOD} ❌",
+        "color": "#FF0000"
+      }
+    },
+    "timeoutKickReason": "Neodpověděl na uvítací otázku během 24 hodin"
+  },
+  "reactionRoles": {
+    "embed": {
+      "title": "CHOOSE YOUR LINE",
+      "description": ":flag_cz: Vyber si dole z reakcí svou linku a dostaň přidělenou roli!\n:flag_us: Choose your lane below and get your assigned role!\n\n<:Toplane:1437486878591815692> - TOP\n<:Jungle:1437486704469610528> - JUNGLE\n<:MID:1437486787315634296> - MID\n<:ADC:1437486605110874216> - ADC\n<:Support:1437484421753213021> - SUPPORT",
+      "color": "#3a3838",
+      "thumbnailUrl": "https://static.wikia.nocookie.net/leagueoflegends/images/9/98/Middle_icon.png/revision/latest?cb=20181117143644"
+    },
+    "emojiRoleMap": [
+      {
+        "emoji": "<:Toplane:1437486878591815692>",
+        "label": "TOP",
+        "roleId": "1423293095319048202"
+      },
+      {
+        "emoji": "<:Jungle:1437486704469610528>",
+        "label": "JUNGLE",
+        "roleId": "1423292924925575280"
+      },
+      {
+        "emoji": "<:MID:1437486787315634296>",
+        "label": "MID",
+        "roleId": "1423292659572674570"
+      },
+      {
+        "emoji": "<:ADC:1437486605110874216>",
+        "label": "ADC",
+        "roleId": "1423292319150506066"
+      },
+      {
+        "emoji": "<:Support:1437484421753213021>",
+        "label": "SUPPORT",
+        "roleId": "1423292503112814662"
+      }
+    ]
+  },
+  "leaveBanLogs": {
+    "leave": {
+      "textTemplate": "{USER} opustil server.",
+      "color": "#FFD700"
+    },
+    "ban": {
+      "textTemplate": "{USER} dostal BAN!",
+      "color": "#FF0000"
+    }
+  },
+  "banCommandLog": {
+    "title": "🚫 BAN",
+    "descriptionTemplate": "**User:** {USER} ({USER_ID})\n**Banned by:** {MOD}\n**Reason:** {REASON}",
+    "color": "#FF0000"
+  }
+}
